@@ -1,0 +1,60 @@
+baseURL = "https://ozantanfener.com"
+languageCode = "en-us"
+theme = "hello-friend"
+paginate = 5
+ignoreFiles = [ "LICENSE$" ]
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  #contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+[languages]
+  [languages.en]
+    title = "Ozan Tanfener"
+    subtitle = "Software Engineer"
+    keywords = ""
+    description = "Ozan Tanfener is a software engineer and food lover"
+    copyright = "<p>Copyright © 2022 Ozan Tanfener</p><p xmlns:dct='http://purl.org/dc/terms/' xmlns:cc='http://creativecommons.org/ns#' class='license-text'><a rel='cc:attributionURL' property='dct:title' href='https://github.com/otanfener/otanfener.github.io/tree/main/content'>Content</a> licensed under <a rel='license' href='https://creativecommons.org/licenses/by/4.0'>CC BY 4.0</a></p>"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    #lastModDisplay = "modified"
+
+    [languages.en.params.logo]
+      logoText = "ozantanfener.com"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
