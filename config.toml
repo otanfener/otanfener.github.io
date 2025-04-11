@@ -1,6 +1,6 @@
 baseURL = "https://ozantanfener.com"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = "PaperMod"
 paginate = 5
 ignoreFiles = [ "LICENSE$" ]
 
