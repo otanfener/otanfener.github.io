@@ -1,6 +1,6 @@
 baseURL = "https://ozantanfener.com"
 languageCode = "en-us"
-theme = "PaperMod"
+theme = ["PaperMod"]
 ignoreFiles = ["LICENSE$"]
 [pagination]
 pagerSize = 5
