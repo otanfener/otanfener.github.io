@@ -1,0 +1,35 @@
+baseURL = 'https://ozantanfener.com/'
+languageCode = 'en-us'
+title = 'Ozan Tanfener'
+theme = 'PaperMod'
+
+[params]
+  description = "Personal website and blog"
+  author = "Ozan Tanfener"
+
+  # PaperMod settings
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

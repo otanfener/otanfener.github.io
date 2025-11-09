@@ -1,18 +1,41 @@
-# Quartz v4
+# ozantanfener.com
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Personal website built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Development
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+```bash
+# Start local development server
+hugo server -D
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+# Build for production
+hugo --minify
+```
 
-## Sponsors
+Visit http://localhost:1313/ to preview your site locally.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Content Structure
+
+```
+content/
+├── _index.md        # Home page
+├── posts/           # Blog posts
+└── about/           # About section
+```
+
+## Creating New Content
+
+```bash
+# Create a new blog post
+hugo new posts/my-post.md
+```
+
+## Deployment
+
+This site automatically deploys to GitHub Pages via GitHub Actions when you push to the `main` branch.
+
+## Theme
+
+Using [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - a clean, fast, and feature-rich Hugo theme.
+
+Configuration in `hugo.toml`.

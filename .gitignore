@@ -1,11 +1,10 @@
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# macOS
 .DS_Store
-.gitignore
-node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+
+# Private content
 private/
-.replit
-replit.nix
